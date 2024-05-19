@@ -1,0 +1,16 @@
+persistence:
+  enabled: true
+  storageClass: ""
+  size: 8Gi
+
+serviceAccount:
+  create: true
+  name: jenkins-sa
+
+rbac:
+  create: true
+
+controller:
+  admin:
+    username: admin
+    password: admin
